@@ -1,27 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>JD Property Solutions</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.6;
+}
+
+header{
+    background:#0f4c81;
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+}
+
+nav{
+    background:#333;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.service-box{
+    flex:1;
+    min-width:250px;
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:8px;
+}
+
+.button{
+    background:#d62828;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
 </head>
+
 <body>
-<h1>JD Property Solutions</h1>
 
-<h2>Professional Property Management Services</h2>
+<header>
+    <h1>JD Property Solutions</h1>
+    <h2>Professional Property Management Services</h2>
+    <p>Serving North Carolina & South Carolina Property Owners</p>
+    <br>
+    <a href="#contact" class="button">Request a Free Consultation</a>
+</header>
 
-<p>Serving property owners and tenants throughout North Carolina and South Carolina.</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#owners">Owners</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<h3>Our Services</h3>
-<ul>
-<li>Property Management</li>
-<li>Tenant Screening</li>
-<li>Rent Collection</li>
-<li>Maintenance Coordination</li>
-<li>Property Inspections</li>
-</ul>
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+    JD Property Solutions provides professional property management services designed to protect your investment and maximize your rental income. We work with owners throughout North Carolina and South Carolina.
+    </p>
+</section>
 
-<h3>Contact Us</h3>
-<p>Natalie Forbes, Broker</p>
-<p>North Carolina & South Carolina</p>
+<section id="services">
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+        <div class="service-box">
+            <h3>Tenant Placement</h3>
+            <p>Marketing, showings, screening and lease preparation.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Rent Collection</h3>
+            <p>Consistent collection and owner reporting.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Maintenance Coordination</h3>
+            <p>Prompt response and trusted vendor network.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Property Inspections</h3>
+            <p>Protecting your investment through routine inspections.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="owners">
+    <h2>Property Owners</h2>
+
+    <p>
+    Whether you own one rental property or a growing portfolio, our goal is to help you reduce vacancies, find qualified tenants, and maximize your return on investment.
+    </p>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Natalie Forbes, Broker</strong></p>
+    <p>North Carolina & South Carolina</p>
+    <p>Email: info@jdpropertysolutions.org</p>
+
+</section>
+
+<footer>
+    <p>© 2026 JD Property Solutions. All Rights Reserved.</p>
+</footer>
 
 </body>
+</html>
 </html>
